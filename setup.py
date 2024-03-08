@@ -9,11 +9,11 @@ with open('requirements.txt', 'r') as fh:
 readme = open('README.md').read()
 
 setup(
-    name="python_package",
+    name="rnastructure_wrapper",
     version='0.0.0',
     long_description=readme,
     packages=find_packages(),
-    package_dir={'python_package': 'python_package'},
+    package_dir={'rnastructure_wrapper': 'rnastructure_wrapper'},
     include_package_data=True,
     install_requires=requirements,
     python_requires=">=3.10",

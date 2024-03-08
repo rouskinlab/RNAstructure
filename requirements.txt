@@ -1,1 +1,6 @@
 numpy
+multiprocessing
+subprocess
+uuid
+tqdm
+pytest

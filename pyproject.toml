@@ -3,15 +3,15 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.poetry]
-name = "python_package"
-description = "My package description"
+name = "rnastructure_wrapper"
+description = "A wrapper around RNAstructure. This work is independent from Dr. Mathew's work on RNAstructure, and is meant for personal use."
 authors = [
     "Yves Martin des Taillades <yves@martin.yt>",
 ]
 license = "MIT"
-# repository = "https://github.com/yvesmartindestaillades/python-package"
+repository = "https://github.com/yvesmartindestaillades/rnastructure"
 readme = "README.md"
-# keywords = ["Rouskin", "rnastructure"]
+keywords = ["Mathews", "rnastructure"]
 
 
 [tool.poetry.dependencies]
