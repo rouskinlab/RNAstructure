@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "python_package"
+description = "My package description"
+authors = [
+    "Yves Martin des Taillades <yves@martin.yt>",
+]
+license = "MIT"
+# repository = "https://github.com/yvesmartindestaillades/python-package"
+readme = "README.md"
+# keywords = ["Rouskin", "rnastructure"]
+
+
+[tool.poetry.dependencies]
+python = ">=3.10"
