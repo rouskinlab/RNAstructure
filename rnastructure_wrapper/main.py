@@ -92,8 +92,8 @@ class RNAstructure:
         
         # if multiple sequences are provided
         if isinstance(sequence, list) or isinstance(sequence, np.ndarray):
-            if dms is None: dms = np.array([None] * len(sequence))
-            if shape is None: shape = np.array([None] * len(sequence))
+            if dms is None: dms = [None] * len(sequence)
+            if shape is None: shape = [None] * len(sequence)
             
             if nproc > 1: # parallelize
                 chunks = [(sequence[start:end], dms[start:end], shape[start:end]) for start, end in zip(np.linspace(0, len(sequence), nproc+1, dtype=int)[:-1], np.linspace(0, len(sequence), nproc+1, dtype=int)[1:])]
