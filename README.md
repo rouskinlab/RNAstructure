@@ -9,4 +9,4 @@ pip install rnastructure_wrapper
 
 ## Use
 
-See `tutorial.ipynb` for more details. 
+See [tutorial.ipynb](https://github.com/yvesmartindestaillades/RNAstructure/blob/main/tutorial.ipynb) for more details. 
